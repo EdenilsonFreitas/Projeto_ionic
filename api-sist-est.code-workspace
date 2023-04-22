@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "../xampp/htdocs/api-sist-est"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}
