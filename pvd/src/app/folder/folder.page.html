@@ -1,20 +1,21 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-   
+
     <ion-buttons slot="start">
       <ion-menu-button>
       </ion-menu-button>
     </ion-buttons>
+
     <!-- <ion-buttons slot="end">
       <ion-button id="butão">Notificões</ion-button>
     </ion-buttons> -->
-    
+
     <ion-buttons slot="end">
       <ion-button id="butão">Perfil</ion-button>
     </ion-buttons>
     <ion-title>Water System</ion-title>
   </ion-toolbar>
-  
+
 </ion-header>
 
 <ion-content [fullscreen]="true">
@@ -31,16 +32,16 @@
     <h3>Iniciativas conscientes transformam</h3>
 
     <p>O projeto de sistema de gestão de água é fundamental para o gerenciamento e conservação de recursos hídricos,
-       e esperamos que ele possa trazer benefícios significativos para a sociedade. 
+       e esperamos que ele possa trazer benefícios significativos para a sociedade.</p>
        
-      </p>
   <!-- <img src="https://thumbs.dreamstime.com/b/%C3%ADcone-de-estacionamento-carro-vetor-design-gr%C3%A1fico-logotipo-web-site-m%C3%ADdia-social-app-ui-ilustra%C3%A7%C3%A3o-222592805.jpg"> -->
+  </div>
 
-</div>
+  <ion-tabs>
+    
+    <ion-router-outlet></ion-router-outlet>
 
-<ion-tabs>
-  <ion-router-outlet></ion-router-outlet>
-
+    <ion-tabs>
   <ion-tab-bar slot="bottom">
     <ion-tab-button tab="home">
       <ion-icon name="play-circle"></ion-icon>
@@ -63,7 +64,9 @@
       Vazamentos
     </ion-tab-button>
   </ion-tab-bar>
+
+  
 </ion-tabs>
+  </ion-tabs>
 
 </ion-content>
-  
