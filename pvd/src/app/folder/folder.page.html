@@ -11,7 +11,7 @@
     </ion-buttons> -->
 
     <ion-buttons slot="end">
-      <ion-button id="butão">Perfil</ion-button>
+      <ion-button id="butão" [routerLink]="['/perfil']">Perfil</ion-button>
     </ion-buttons>
     <ion-title>Water System</ion-title>
   </ion-toolbar>
@@ -40,23 +40,23 @@
 
     <ion-tabs>
   <ion-tab-bar slot="bottom">
-    <ion-tab-button tab="speedometer">
+    <ion-tab-button tab="speedometer" [routerLink]="['/consumo']" >
       <ion-icon name="speedometer"></ion-icon>
       Consumo
     </ion-tab-button>
-    <ion-tab-button tab="home">
+    <ion-tab-button tab="home" [routerLink]="['/residencia']" >
       <ion-icon name="home"></ion-icon>
       Residência
     </ion-tab-button>
-    <ion-tab-button tab="add-circle">
+    <ion-tab-button tab="add-circle"  [routerLink]="['/cadastrar']">
       <ion-icon name="add-circle"></ion-icon>
       Cadastrar
     </ion-tab-button>
-    <ion-tab-button tab="alert">
+    <ion-tab-button tab="alert" [routerLink]="['/alerta']">
       <ion-icon name="warning"></ion-icon>
       Alerta
     </ion-tab-button>
-    <ion-tab-button tab="water">
+    <ion-tab-button tab="water" [routerLink]="['/vazamentos']" >
       <ion-icon name="water"></ion-icon>
       Vazamentos
     </ion-tab-button>
