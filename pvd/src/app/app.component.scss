@@ -1,5 +1,5 @@
 ion-menu ion-content {
-  --background: var(--ion-item-background, var(--ion-background-color, #fff));
+  --background: #2A2B3D;
 }
 
 ion-menu.md ion-content {
@@ -11,6 +11,7 @@ ion-menu.md ion-content {
 
 ion-menu.md ion-list {
   padding: 20px 0;
+  background-color: #2A2B3D;
 }
 
 ion-menu.md ion-note {
@@ -31,7 +32,6 @@ ion-menu.md ion-list#inbox-list ion-list-header {
   font-weight: 600;
 
   min-height: 20px;
-  background-color: red;
 }
 
 ion-menu.md ion-list#labels-list ion-list-header {
@@ -48,6 +48,7 @@ ion-menu.md ion-item {
   --padding-start: 10px;
   --padding-end: 10px;
   border-radius: 4px;
+  --background: #2A2B3D;
 }
 
 ion-menu.md ion-item.selected {
@@ -118,6 +119,7 @@ ion-note {
 ion-item.selected {
   --color: var(--ion-color-primary);
 }
+
 ion-img{
   width: 40px;
   height: 40px;
