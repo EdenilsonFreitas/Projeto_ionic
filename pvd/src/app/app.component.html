@@ -3,14 +3,14 @@
     <ion-menu contentId="main-content" type="overlay">
       <ion-content>
         <ion-list id="inbox-list">
-         
+
           <ion-list-header class="id1">
             <!-- <ion-img src="assets/imgs/ws-logo1.png"></ion-img> -->
             <ion-icon name="location-outline"></ion-icon>
             Water System</ion-list-header>
           <ion-note>WaterSystemg@gmail.com</ion-note>
           <ion-menu-toggle auto-hide="false" >
-            
+
             <!-- <ion-item routerDirection="root" [routerLink]="[p.url]" lines="none" detail="false" routerLinkActive="selected">
               <ion-icon aria-hidden="true" slot="start" [ios]="p.icon + '-outline'" [md]="p.icon + '-sharp'"></ion-icon>
               <ion-label>{{ p.title }}</ion-label>
@@ -19,57 +19,57 @@
 
             <ion-item>  <!-- Adicionar item -->
            <ion-label [routerLink]="['/alerta']">
-            <h1> <ion-icon name="person-circle-outline"></ion-icon>
+            <h1> <ion-icon name="alert-circle-outline" style="color: #fff"></ion-icon>
               Alerta</h1></ion-label>
             </ion-item>
-            <ion-item> 
+            <ion-item>
               <ion-label [routerLink]="['/categoria']"><h1>
-                <ion-icon name="car-sport-outline"></ion-icon>
+                <ion-icon name="grid-outline" style="color: #fff"></ion-icon>
                 Categoria</h1></ion-label>
             </ion-item>
-            <ion-item> 
+            <ion-item>
               <ion-label [routerLink]="['/consumo']"><h1>
-                <ion-icon name="car-sport-outline"></ion-icon>
+                <ion-icon name="speedometer-outline" style="color: #fff"></ion-icon>
                 Consumo</h1></ion-label>
             </ion-item>
-            <ion-item> 
+            <ion-item>
               <ion-label [routerLink]="['/periodo']"><h1>
-                <ion-icon name="car-sport-outline"></ion-icon>
+                <ion-icon name="timer-outline" style="color: #fff"></ion-icon>
                 Periodo</h1></ion-label>
             </ion-item>
-            <ion-item> 
+            <ion-item>
               <ion-label [routerLink]="['/residencia']"><h1>
-                <ion-icon name="car-sport-outline"></ion-icon>
+                <ion-icon name="home-outline" style="color: #fff"></ion-icon>
                 Residência</h1></ion-label>
             </ion-item>
-            <ion-item> 
+            <ion-item>
               <ion-label [routerLink]="['/tabela']"><h1>
-                <ion-icon name="car-sport-outline"></ion-icon>
+                <ion-icon name="browsers-outline" style="color: #fff"></ion-icon>
                 Tabela </h1></ion-label>
             </ion-item>
-            <ion-item> 
+            <ion-item>
               <ion-label [routerLink]="['/caern']"><h1>
-                <ion-icon name="car-sport-outline"></ion-icon>
-                CAERN </h1></ion-label>
+                <ion-icon name="water-outline" style="color: #fff"></ion-icon>
+                CAERN</h1></ion-label>
             </ion-item>
-            <ion-item> 
+            <ion-item>
               <ion-label [routerLink]="['/graficos']"><h1>
-                <ion-icon name="car-sport-outline"></ion-icon>
+                <ion-icon name="stats-chart-outline" style="color: #fff"></ion-icon>
                 Gráficos </h1></ion-label>
             </ion-item>
-            <ion-item> 
+            <ion-item>
               <ion-label [routerLink]="['/relatorios']"><h1>
-                <ion-icon name="car-sport-outline"></ion-icon>
+                <ion-icon name="newspaper-outline" style="color: #fff"></ion-icon>
                 Relatórios </h1></ion-label>
             </ion-item>
-            <ion-item> 
+            <ion-item>
               <ion-label [routerLink]="['/configuracoes']"><h1>
-                <ion-icon name="car-sport-outline"></ion-icon>
+                <ion-icon name="settings-outline" style="color: #fff"></ion-icon>
                 Configurações </h1></ion-label>
             </ion-item>
-            <ion-item> 
-              <ion-label [routerLink]="['/carros']"><h1>
-                <ion-icon name="car-sport-outline"></ion-icon>
+            <ion-item>
+              <ion-label [routerLink]="['/carros']"><h1 style="color: #ff1717">
+                <ion-icon name="log-out-outline" style="color: #ff1717"></ion-icon>
                 Sair </h1></ion-label>
             </ion-item>
           </ion-menu-toggle>
@@ -84,10 +84,10 @@
           </ion-item>
         </ion-list> -->
 
-        
+
       </ion-content>
     </ion-menu>
-    
+
     <ion-router-outlet id="main-content"></ion-router-outlet>
   </ion-split-pane>
 </ion-app>
