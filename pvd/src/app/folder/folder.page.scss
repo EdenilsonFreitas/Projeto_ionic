@@ -56,8 +56,13 @@ div p {
 }
 
 // Conteudo
-ion-tabs{
+.corfundoDiv{
   background-color: #111827;
+  height: 100%;
+}
+
+.corfundoHeader{
+  background-color: aqua;
 }
 
 ion-tab-bar, ion-tab-button{

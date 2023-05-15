@@ -1,67 +1,57 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-
+<ion-header [translucent]="true" class="corfundoHeader">
+  <ion-toolbar class="navCor">
     <ion-buttons slot="start">
-      <ion-menu-button>
-      </ion-menu-button>
+      <ion-menu-button> </ion-menu-button>
     </ion-buttons>
-
-    <!-- <ion-buttons slot="end">
-      <ion-button id="butão">Notificões</ion-button>
-    </ion-buttons> -->
 
     <ion-buttons slot="end">
-      <ion-button id="butão" [routerLink]="['/perfil']">Perfil</ion-button>
+      <ion-button id="butão"><ion-icon name="notifications"></ion-icon></ion-button>
     </ion-buttons>
+
+    <ion-buttons slot="end">
+      <ion-button id="butão" [routerLink]="['/perfil']"><ion-icon name="person"></ion-icon></ion-button>
+    </ion-buttons>
+
     <ion-title>Water System</ion-title>
   </ion-toolbar>
-
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">{{ folder }}</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <div id="container">
+  <div id="container" class="corfundoDiv">
     <ion-img src="assets/imgs/ws-logo1.png"></ion-img>
     <h1>Water System</h1>
     <h3>Iniciativas conscientes transformam</h3>
 
-  <!-- <img src="https://thumbs.dreamstime.com/b/%C3%ADcone-de-estacionamento-carro-vetor-design-gr%C3%A1fico-logotipo-web-site-m%C3%ADdia-social-app-ui-ilustra%C3%A7%C3%A3o-222592805.jpg"> -->
+    <!-- <img src="https://thumbs.dreamstime.com/b/%C3%ADcone-de-estacionamento-carro-vetor-design-gr%C3%A1fico-logotipo-web-site-m%C3%ADdia-social-app-ui-ilustra%C3%A7%C3%A3o-222592805.jpg"> -->
   </div>
 
   <ion-tabs>
     <ion-router-outlet></ion-router-outlet>
 
     <ion-tabs>
-  <ion-tab-bar slot="bottom">
-    <ion-tab-button tab="speedometer" [routerLink]="['/consumo']" >
-      <ion-icon name="speedometer"></ion-icon>
-      Consumo
-    </ion-tab-button>
-    <ion-tab-button tab="home" [routerLink]="['/residencia']" >
-      <ion-icon name="home"></ion-icon>
-      Residência
-    </ion-tab-button>
-    <ion-tab-button tab="add-circle"  [routerLink]="['/cadastrar']">
-      <ion-icon name="add-circle"></ion-icon>
-      Cadastrar
-    </ion-tab-button>
-    <ion-tab-button tab="alert" [routerLink]="['/alerta']">
-      <ion-icon name="warning"></ion-icon>
-      Alerta
-    </ion-tab-button>
-    <ion-tab-button tab="water" [routerLink]="['/vazamentos']" >
-      <ion-icon name="water"></ion-icon>
-      Vazamentos
-    </ion-tab-button>
-  </ion-tab-bar>
-
-
-</ion-tabs>
+      <ion-tab-bar slot="bottom">
+        <ion-tab-button tab="speedometer" [routerLink]="['/consumo']">
+          <ion-icon name="speedometer"></ion-icon>
+          Consumo
+        </ion-tab-button>
+        <ion-tab-button tab="home" [routerLink]="['/residencia']">
+          <ion-icon name="home"></ion-icon>
+          Residência
+        </ion-tab-button>
+        <ion-tab-button tab="add-circle" [routerLink]="['/cadastrar']">
+          <ion-icon name="add-circle"></ion-icon>
+          Cadastrar
+        </ion-tab-button>
+        <ion-tab-button tab="alert" [routerLink]="['/alerta']">
+          <ion-icon name="warning"></ion-icon>
+          Alerta
+        </ion-tab-button>
+        <ion-tab-button tab="water" [routerLink]="['/vazamentos']">
+          <ion-icon name="water"></ion-icon>
+          Vazamentos
+        </ion-tab-button>
+      </ion-tab-bar>
+    </ion-tabs>
   </ion-tabs>
-
 </ion-content>
