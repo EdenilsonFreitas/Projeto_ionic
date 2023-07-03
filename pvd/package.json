@@ -25,11 +25,17 @@
     "@capacitor/keyboard": "4.1.1",
     "@capacitor/status-bar": "4.1.1",
     "@ionic/angular": "^7.0.0",
+<<<<<<< HEAD
+    "chart.js": "^4.3.0",
+    "ionicons": "^7.0.0",
+    "ng2": "^0.2.4",
+=======
     "apexcharts": "^3.41.0",
     "echarts": "^5.4.2",
     "ionicons": "^7.0.0",
     "ng-apexcharts": "^1.7.7",
     "ngx-echarts": "^16.0.0",
+>>>>>>> 370933b022e0c342130d85443f41cf0afdb66c0f
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
